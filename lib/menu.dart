@@ -1,6 +1,8 @@
 import 'package:ejercicio/pages/sesion4/home4.dart';
 import 'package:ejercicio/pages/sesion6/home6screen.dart';
 import 'package:ejercicio/pages/sesion5/home5_widget.dart';
+import 'package:ejercicio/pages/sesion7/screen/home7screen.dart';
+import 'package:ejercicio/pages/sesion7/screen/scrolltiktok.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/sesion3/inicio.dart';
@@ -74,7 +76,18 @@ class Menu extends StatelessWidget {
                 );
               },
             ),
-            
+                const SizedBox(
+                height: 10,
+              ),
+                buttonWidget(
+              name: 'Sesion 7',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ScrollTiktok()),
+                );
+              },
+            ),
           ],
         ),
       ),
