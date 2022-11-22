@@ -95,7 +95,7 @@ class _ScrollTiktokState extends State<ScrollTiktok> {
       backgroundColor: Colors.black,
      appBar: AppBar(
       backgroundColor: Colors.black,
-        title: const Text('Animales mas peligros', style: TextStyle(color:Colors.lightBlue),),
+        title: const Text('Animales mas peligrosos', style: TextStyle(color:Colors.lightBlue),),
         leading: GestureDetector(
           onTap: () {
             Navigator.pop(context);
